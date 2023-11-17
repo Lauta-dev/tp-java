@@ -26,5 +26,5 @@ gh repo clone "Lauta-dev/tp-java".
 ```
 ## Ejecutar programa
 ```sh
-mvn package; java -cp ./target/tp-1.0-SNAPSHOT.jar tp.Main
+cd tp; mvn package; java -cp ./target/tp-1.0-SNAPSHOT.jar tp.Main
 ```
