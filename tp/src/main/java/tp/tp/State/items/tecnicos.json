@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lauta",
+    "disponibilidad": false
+  },
+  {
+    "id": 2,
+    "nombre": "Juan",
+    "disponibilidad": true
+  },
+  {
+    "id": 3,
+    "nombre": "María",
+    "disponibilidad": false
+  },
+  {
+    "id": 4,
+    "nombre": "Carlos",
+    "disponibilidad": true
+  },
+  {
+    "id": 5,
+    "nombre": "Ana",
+    "disponibilidad": false
+  },
+  {
+    "id": 6,
+    "nombre": "Pedro",
+    "disponibilidad": true
+  },
+  {
+    "id": 7,
+    "nombre": "Laura",
+    "disponibilidad": false
+  },
+  {
+    "id": 8,
+    "nombre": "Miguel",
+    "disponibilidad": true
+  },
+  {
+    "id": 9,
+    "nombre": "Elena",
+    "disponibilidad": false
+  },
+  {
+    "id": 10,
+    "nombre": "Alejandro",
+    "disponibilidad": true
+  },
+  {
+    "id": 11,
+    "nombre": "Sofía",
+    "disponibilidad": false
+  },
+  {
+    "id": 12,
+    "nombre": "Javier",
+    "disponibilidad": true
+  },
+  {
+    "id": 13,
+    "nombre": "Isabel",
+    "disponibilidad": false
+  },
+  {
+    "id": 14,
+    "nombre": "Ricardo",
+    "disponibilidad": true
+  },
+  {
+    "id": 15,
+    "nombre": "Carmen",
+    "disponibilidad": false
+  }
+]
