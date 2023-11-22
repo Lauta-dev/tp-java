@@ -11,8 +11,8 @@ import java.util.List;
 
 import com.google.gson.Gson;
 
-import tp.tp.State.TecnicoSeleccionadoTemplate;
-import tp.tp.State.TecnicosTemplate;
+import tp.tp.State.template.TecnicoSeleccionadoTemplate;
+import tp.tp.State.template.TecnicosTemplate;
 
 public class LeerJsonTecnicos {
   public static List<TecnicoSeleccionadoTemplate> obtenerTecnicos() {
@@ -38,10 +38,9 @@ public class LeerJsonTecnicos {
       List<TecnicoSeleccionadoTemplate> tecnicoDisponibles = tecnicosLista;
 
       lista.forEach(data -> {
-        if (data.getDisponibilidad()) {
-          TecnicoSeleccionadoTemplate tec = new TecnicoSeleccionadoTemplate(data.getId(), data.getNombre());
-          tecnicoDisponibles.add(tec);
-        }
+        TecnicoSeleccionadoTemplate tec = new TecnicoSeleccionadoTemplate(data.getId(), data.getNombre(),
+            data.getDisponibilidad());
+        tecnicoDisponibles.add(tec);
       });
 
       return tecnicoDisponibles;

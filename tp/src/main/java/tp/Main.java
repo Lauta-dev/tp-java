@@ -8,6 +8,8 @@ public class Main {
     public static void main(String[] args) {
         Inicio inicio = new Inicio();
 
+        // Pregunta al usuario por los datos
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese los datos");
@@ -20,14 +22,21 @@ public class Main {
 
         System.out.println(" ");
 
+        // Si se da el DNI, se agrega el formato de CUIT automaticamente
         String formatCuit = cuit.startsWith("20-") && cuit.endsWith("-2") ? cuit : "20-" + cuit + "-2";
 
-        System.out.println(formatCuit);
+        inicio.setRazonCuit(entrada, formatCuit);
 
-        inicio.setRazonSocial(entrada, cuit);
         inicio.actuar();
+        System.out.println("");
+
         inicio.actuar();
+        System.out.println("");
+
         inicio.actuar();
+        System.out.println("");
+
+        scanner.close();
 
     }
 

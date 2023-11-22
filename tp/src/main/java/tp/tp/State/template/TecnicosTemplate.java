@@ -1,4 +1,4 @@
-package tp.tp.State;
+package tp.tp.State.template;
 
 public class TecnicosTemplate {
   private int id;
